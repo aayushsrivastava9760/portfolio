@@ -7,6 +7,7 @@ const Home = () => {
         <div className='home-col'>
             <img className='image-block' src="/aayush.jpeg" alt="aayush" />
             <div className='home-content'>
+                
                 <h1 className='home-title'>Hi,  I 'm   Aayush  Srivastava </h1>
                 {/* <h2 className='home-profession'>a { `${professions[index].substring(0, subIndex)}` }<span className='mark'>|</span></h2> */}
                 <p className='intro'>
