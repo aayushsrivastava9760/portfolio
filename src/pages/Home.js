@@ -12,6 +12,7 @@ const Home = () => {
                 <p className='intro'>
                     I'm a student developer currently pursuing my Btech from IIT (BHU) , Varanasi . I am very passionate about software development, web development in particular . I am also into open source and love collaborating .
                 </p>
+                
                 <div>
                     <button className='about-btn'>
                         More About Me
