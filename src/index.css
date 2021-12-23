@@ -38,6 +38,21 @@ body{
     z-index: 0;
 }
 
+.home-content{
+  margin-left: -124px;
+  margin-right: 29px;
+  margin-top: 162px;
+}
+
+.home-col{
+  margin-top: -13px;
+  margin-left: 127px;
+  margin-right: 144px;
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .home-title{
   font-size: 55px;
     line-height: 62px;
