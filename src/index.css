@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* home page */
+
+.image-block{
+    height: calc(100vh - 80px);
+    border-radius: 30px;
+    margin-top: 43px;
+    box-shadow: 0 0 12px rgb(0 0 0 / 90%);
+    z-index: 2;
+}
+
+body{
+  color: #666;
+}
+
+
+.color-block{
+  position: fixed;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -83%;
+    top: -50%;
+    background-color: #2826b6;
+    z-index: 0;
+}
+
+.home-title{
+  font-size: 55px;
+    line-height: 62px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins",sans-serif;
+    color: #302ed6;
+}
+
+.home-profession{
+  font-size: 48px;
+    line-height: 62px;
+    font-weight: 500;
+    position: relative;
+    font-family: "Poppins",sans-serif;
+    color: #666;
+}
+
+.mark{
+  color: #030303;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.intro{
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.about-btn{
+  line-height: 1.4;
+    border-radius: 35px;
+    white-space: nowrap;
+    cursor: pointer;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 16px 35px 16px 35px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #666;
+    background-color: transparent;
+    margin-left: 0px;
+    border-color: #302ed6;
+}
+
+.about-btn:hover{
+  color:white;
+  background-color:#302ed6;
+  transition: all 0.2s linear 0s;
+}
