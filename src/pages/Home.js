@@ -20,6 +20,7 @@ const Home = () => {
           
           return
         }
+        
     
         if(subIndex === 0 && reverse){
           setReverse(false)
