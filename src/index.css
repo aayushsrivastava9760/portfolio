@@ -12,6 +12,163 @@ code {
     monospace;
 }
 
+/* navbar */
+
+li{
+  list-style-type: none;
+}
+
+.fa{
+  display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 23px;
+    margin-left: 14px;
+}
+
+.fa-user{
+  display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 23px;
+    margin-left: 17px;
+}
+
+.nav-text{
+  color: white;
+  margin-left: -43px;
+}
+
+.nav-text-2{
+  color: white;
+  margin-left: -55px;
+}
+
+.current-icon{
+  background: #2826b6;
+    color: white;
+}
+
+.not-current-icon{
+  background: #d8d8d8;
+  color: #666;
+}
+
+.icon-box-home{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    /* background: #d8d8d8; */
+    cursor: pointer;
+    /* color: #666; */
+    position: fixed;
+    right: 30px;
+    top: 193px;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.icon-box-home:hover{
+  background: #2826b6;
+  color: white;
+  opacity: 1;
+  border-radius: 35px;
+  padding-left: 70px;
+  transition: all 0.2s linear 0s;
+}
+
+.icon-box-about{
+  position: fixed;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    /* background: #d8d8d8; */
+    cursor: pointer;
+    /* color: #666; */
+    position: fixed;
+    right: 30px;
+    top: 270px;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.icon-box-about:hover{
+  background: #2826b6;
+  color: white;
+  border-radius: 35px;
+  padding-left: 70px;
+  transition: all 0.2s linear 0s;
+}
+
+.icon-box-projects{
+  position: fixed;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    /* background: #d8d8d8; */
+    cursor: pointer;
+    /* color: #666; */
+    position: fixed;
+    right: 30px;
+    top: 347px;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.icon-box-projects:hover{
+  background: #2826b6;
+  color: white;
+  border-radius: 35px;
+  padding-left: 70px;
+  transition: all 0.2s linear 0s;
+}
+
+.icon-box-contact{
+  position: fixed;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 20px 0;
+    border-radius: 50%;
+    /* background: #d8d8d8; */
+    cursor: pointer;
+    /* color: #666; */
+    position: fixed;
+    right: 30px;
+    top: 424px;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.icon-box-contact:hover{
+  background: #2826b6;
+  color: white;
+  border-radius: 35px;
+  padding-left: 70px;
+  transition: all 0.2s linear 0s;
+}
+
 /* home page */
 
 .image-block{

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import professions from '../assets/professionData'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -56,9 +57,11 @@ const Home = () => {
                 </p>
                 
                 <div>
+                <Link to='/about'>
                     <button className='about-btn'>
                         More About Me
                     </button>
+                  </Link>
                 </div>
             </div>
         </div>
