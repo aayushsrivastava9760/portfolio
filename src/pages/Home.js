@@ -14,13 +14,14 @@ const Home = () => {
           setIndex(0)
           return 
         }
+        
     
         if( subIndex === professions[index].length + 1 && !reverse ){
           setReverse(true)
           
           return
         }
-        
+
     
         if(subIndex === 0 && reverse){
           setReverse(false)
