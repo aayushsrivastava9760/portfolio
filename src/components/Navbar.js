@@ -38,6 +38,7 @@ const Navbar = () => {
       setIsContact(true)
     }
   },[location])
+  
 
   return (
     <>
