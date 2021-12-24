@@ -261,3 +261,51 @@ body{
   background-color:#302ed6;
   transition: all 0.2s linear 0s;
 }
+
+/* about */
+
+.about-cont{
+  margin-right: 157px;
+    margin-left: 10px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    margin-top: -351px;
+    display: grid;
+    /* grid-gap: 2rem; */
+    grid-gap: 2rem;
+    grid-gap: 0px;
+    grid-gap: 0px;
+    gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.about-title{
+  font-size: 55px;
+    line-height: 65px;
+    font-weight: 900;
+    margin: 0 0 343px;
+    position: relative;
+    padding-left: 506px;
+    /* padding-top: 36px; */
+    font-family: "Poppins",sans-serif;
+    color: #666;
+}
+
+.about-title-2{
+  color:#302ed6;
+  padding-left: 25px;
+}
+
+.abt-block{
+  margin-right: 157px;
+  margin-left: 90px;
+  /* margin-top: 68px; */
+  display: grid;
+  /* grid-gap: 2rem; */
+  grid-gap: 2rem;
+  grid-gap: 0px;
+  grid-gap: 0px;
+  gap: 0px;
+  grid-template-rows: repeat(2, 1fr);
+}
