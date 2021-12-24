@@ -309,3 +309,243 @@ body{
   gap: 0px;
   grid-template-rows: repeat(2, 1fr);
 }
+
+.about-p-info{
+  font-size: 42px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: -23px;
+    padding-top: 24px;
+    font-family: "Poppins",sans-serif;
+    color: #343232;
+    text-align: center;
+}
+
+.shift{
+  margin-left: 20px;
+}
+
+/* projects */
+
+.project-title{
+  font-size: 55px;
+    line-height: 65px;
+    font-weight: 900;
+    margin: 0 0 1110px;
+    position: relative;
+    padding-left: 506px;
+    /* padding-top: 36px; */
+    font-family: "Poppins",sans-serif;
+    color: #666;
+}
+
+.p-info-para{
+  font-family: "Open Sans",sans-serif;
+  /* opacity: 0.8; */
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 21px;
+  color: #aca2a2;
+}
+
+.p-info-para-span{
+  font-size: 19px;
+  /* font-weight: 900; */
+  color: #090909;
+}
+
+.tab{
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  display: block;
+  margin: 0.25rem 0.25rem 0;
+  background: #d3e3e3;
+  padding: 3px 6px;
+  border-radius: 9px;
+  color: #454545;
+  margin-right: 18px;
+}
+
+.abt-lang-block{
+  margin-top: -29px;
+    margin-left: 176px;
+    text-align: center;
+    display: flex;
+}
+
+/* personal info */
+
+
+.p-info-block{
+  margin-bottom: 51px;
+    height: 306px;
+    float: left;
+    margin-left: 38px;
+    /* align-items: flex-end; */
+    align-content: stretch;
+    margin-top: 10px;
+    width: 555px;
+    background: var(--clr-white);
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: 5px solid #302ed6;
+}
+
+.details-block{
+  margin-top: -15px;
+  margin-left: 25px;
+}
+
+.info-col{
+  margin-top: -13px;
+    margin-left: -117px;
+    display: grid;
+    /* grid-gap: 2rem; */
+    grid-gap: 2rem;
+    grid-gap: 0px;
+    grid-gap: 0px;
+    grid-gap: 0px;
+    gap: 0px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info-pic{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+  /* position: fixed; */
+  margin-left: 148px;
+  margin-top: 28px;
+}
+
+/* contact */
+
+.contact-container {
+  margin-right: 157px;
+  /* margin-left: 10px; */
+  margin-top: -271px;
+  display: grid;
+  /* grid-gap: 2rem; */
+  grid-gap: 2rem;
+  grid-gap: 0px;
+  grid-gap: 0px;
+  gap: 0px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.subheading{
+  font-family: "Poppins",sans-serif;
+    color: black;
+    font-size: 31px;
+    letter-spacing: 2px;
+}
+
+.subheading2{
+  font-family: "Poppins",sans-serif;
+    color: black;
+    font-size: 31px;
+    letter-spacing: 2px;
+}
+
+.contact-para{
+  font-size: 20px;
+    line-height: 35px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.contact-block1{
+  margin-left: 121px;
+  margin-right: 73px;
+}
+
+.input-1{
+  padding-left: 18px;
+    margin-bottom: 12px;
+    height: 35px;
+    width: 400px;
+    border: 3px solid #817979;
+    border-radius: 30px;
+    font-size: 21px;
+}
+
+.input-2{
+  padding-left: 18px;
+  margin-bottom: 12px;
+  height: 35px;
+  width: 613px;
+  border: 3px solid #817979;
+  border-radius: 30px;
+  font-size: 21px;
+}
+
+.input-3{
+  padding: 12px;
+  margin-bottom: 12px;
+  height: 213px;
+  width: 613px;
+  border: 3px solid #817979;
+  border-radius: 34px;
+  font-size: 21px;
+}
+
+.submit-btn{
+  border-radius: 35px;
+    white-space: nowrap;
+    cursor: pointer;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 16px 35px 16px 35px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #666;
+    background-color: transparent;
+    /* margin-left: 591px; */
+    border-color: #302ed6;
+}
+
+.submit-btn:hover{
+  color:white;
+  background-color:#302ed6;
+  transition: all 0.2s linear 0s;
+}
+
+.social{
+  padding-top: 10px;
+}
+
+.github{
+  color: rgb(71, 70, 70);
+    font-size: 59px;
+}
+
+.github:hover{
+  color: black;
+}
+
+.linkedin{
+  color: rgb(71, 70, 70);
+    font-size: 59px;
+    margin-left: 24px;
+}
+
+.linkedin:hover{
+  color: #2826b6;
+}
+
+.twitter{
+  color: rgb(71, 70, 70);
+    font-size: 59px;
+    margin-left: 24px;
+}
+
+.twitter:hover{
+  color: #2826b6;
+  /* background-color: #2826b6; */
+}
+
