@@ -1,7 +1,6 @@
 import React from 'react'
 
 const ProjectCard = ({project}) => {
-  console.log(project);
 
   const {name,info,src,tools,link} = project
   return (
@@ -16,7 +15,7 @@ const ProjectCard = ({project}) => {
             <p className='project-info' >{info}</p>
             <div className='proj-lang-block' >
               {tools.map(
-                tool=><p className='tab'>{tool}</p>
+                (tool,index)=><p key={index} className='tab'>{tool}</p>
                 )}
             </div>
           </div>
