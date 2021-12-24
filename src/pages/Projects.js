@@ -1,5 +1,6 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard'
+import projects from '../assets/projects'
 
 
 const Projects = () => {
@@ -10,7 +11,13 @@ const Projects = () => {
           My 
           <span className='about-title-2'>Projects</span> 
         </h1>
-        <ProjectCard />
+        <div className='project-container'>
+        {projects.map((project,index)=>{
+            return(
+              <ProjectCard key={index}  project={project}/>
+            )
+        })}
+        </div>
       </div>
     </div>
   )
