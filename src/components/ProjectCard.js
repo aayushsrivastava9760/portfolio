@@ -1,10 +1,12 @@
 import React from 'react'
+import Tilt from 'react-tilt'
 
 const ProjectCard = ({project}) => {
 
   const {name,info,src,tools,link} = project
   return (
     <div>
+      <Tilt className="Tilt" options={{ max : 10 }}>
       <a className='proj-link' href={link}>
         <div className='single-project'>
           <div className='img-block'>
@@ -21,6 +23,7 @@ const ProjectCard = ({project}) => {
           </div>
         </div>
       </a>
+      </Tilt>
     </div>
   )
 }
