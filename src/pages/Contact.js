@@ -1,8 +1,33 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+
+
+const containerVariants = {
+  hidden:{
+    opacity:0,
+    x:'100vw'
+  },
+  visible:{
+    opacity:1,
+    x:0,
+    transition:{ type:'spring', delay:0.5 }
+  },
+  exit:{
+    x:'-100vw',
+    transition:{
+      ease: 'easeInOut'
+    }
+  }
+}
 
 const Contact = () => {
   return (
-    <div>
+    <motion.div
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+    >
       <div className='contact-block'>
         <h1 className='about-title'>
           Get in  
@@ -25,7 +50,7 @@ const Contact = () => {
         </div>
         <div>
           <h1 className='subheading'>Drop me a Mail !</h1>
-          <form action="mailto:aayushsrivastava9760@gmail.com" method='post' enctype="text/plain" >
+          <form action="mailto:aayushsrivastava9760@gmail.com" method='post' encType="text/plain" >
             <input className='input-1' name="name" type="text" placeholder='Your Name'></input>
             <input className='input-1' name="email" type="text" placeholder='Your Email'></input>
             <input className='input-2' name="subject" type="text" placeholder='Your Subject'></input>
@@ -35,7 +60,7 @@ const Contact = () => {
         </div>
         </div>
       </div>
-    </div>
+      </motion.div>
   )
 }
 

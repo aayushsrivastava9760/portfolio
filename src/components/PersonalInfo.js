@@ -1,8 +1,17 @@
 import React from 'react'
+import Tilt from 'react-tilt'
+import { motion } from 'framer-motion'
 
 const PersonalInfo = () => {
   return (
-    <div className='p-info-block'>
+    <div>
+      <Tilt className="Tilt" options={{ max : 5 }}>
+      <motion.div 
+      className='p-info-block'
+      whileHover={{
+        boxShadow: "0px 0px 8px rgb(42, 68, 219)"
+      }}
+      >
       <h1 className='about-p-info' >
             Personal Infos
         </h1>
@@ -32,6 +41,8 @@ const PersonalInfo = () => {
           </div>
           
         </div>
+        </motion.div>
+      </Tilt>
     </div>
   )
 }
