@@ -7,7 +7,7 @@ const ProjectCard = ({project}) => {
   return (
     <div>
       <Tilt className="Tilt" options={{ max : 10 }}>
-      <a className='proj-link' href={link}>
+      <a rel="noopener noreferrer" target='_blank' className='proj-link'  href={link}>
         <div className='single-project'>
           <div className='img-block'>
             <img className='img-project' src={src} alt={name} />
