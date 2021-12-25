@@ -20,6 +20,7 @@ const containerVariants = {
   }
 }
 
+
 const Contact = () => {
   return (
     <motion.div
