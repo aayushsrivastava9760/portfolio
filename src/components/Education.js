@@ -25,7 +25,7 @@ const Education = () => {
                 <br></br>
                 Core member of IIT BHU Robotics Club
                 <br></br>
-                Student developer under COPS IIT BHU
+                Member of Tech Team SNTC IIT BHU
             </p>
             
         </div>
