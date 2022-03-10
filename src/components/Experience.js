@@ -21,10 +21,10 @@ const Experience = () => {
                 Made IMDb clone under Quollab
             </p>
             <p className='subheading2'>
-                Contributed to COPS website
+                Made Contributions to COPS and SNTC website
             </p>
             <p className='subheading2'>
-                Participated in CSOC and Hacktoberfest
+                Mentored teams of freshers for smooth functioning of Robotics Event 'La Robo Liga'
             </p>
             {/* <p className='contact-para'>
                 
