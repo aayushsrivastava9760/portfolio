@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from './pages/Home';
-import Navbar from './components/Navbar';
-import About from './pages/About';
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
-import ErrorPage from './pages/ErrorPage'
+import Home from './pages/home/Home';
+import Navbar from './components/UI/navbar/Navbar';
+import About from './pages/about/About';
+import Projects from './pages/projects/Projects'
+import Contact from './pages/contact/Contact'
+import ErrorPage from './pages/errorPage/ErrorPage'
 import { Routes , Route , useLocation} from 'react-router-dom'
 
 

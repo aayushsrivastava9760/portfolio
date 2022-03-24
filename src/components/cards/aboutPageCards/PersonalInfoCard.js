@@ -2,7 +2,7 @@ import React from 'react'
 import Tilt from 'react-tilt'
 import { motion } from 'framer-motion'
 
-const PersonalInfo = () => {
+const PersonalInfoCard = () => {
   return (
     <div>
       <Tilt className="Tilt" options={{ max : 5 }}>
@@ -17,7 +17,7 @@ const PersonalInfo = () => {
         </h1>
         <div className='info-col'>
 
-          <img className='info-pic' src="/aayush2.jpeg" alt='aayush' />
+          <img className='info-pic' src="/profileImg/profileInfoCardImg.jpeg" alt='aayush' />
 
           {/* <div className='info-container'> */}
           <div className='details-block'>
@@ -47,4 +47,4 @@ const PersonalInfo = () => {
   )
 }
 
-export default PersonalInfo
+export default PersonalInfoCard

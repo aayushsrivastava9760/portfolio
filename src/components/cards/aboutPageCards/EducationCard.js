@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Tilt from 'react-tilt'
 
-const Education = () => {
+const EducationCard = () => {
   return (
     <div>
          <Tilt className="Tilt" options={{ max : 5 }}>
@@ -35,4 +35,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default EducationCard

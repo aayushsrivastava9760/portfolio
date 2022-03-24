@@ -1,7 +1,7 @@
 const projects = [
     {
         name:"Personal Portfolio",
-        src:"/portfolio.jpeg",
+        src:"/projectsImg/portfolio.jpeg",
         info:"Personal Portfolio website made using React .",
         tools:[
             "React",
@@ -12,7 +12,7 @@ const projects = [
     },
     {
         name:"Jobs API",
-        src:"/jobs-api.jpeg",
+        src:"/projectsImg/jobs-api.jpeg",
         info:"An API made using NodeJs , ExpressJs and mongoose set up on Heroku Prostgresql database .",
         tools:[
             "Node",
@@ -23,7 +23,7 @@ const projects = [
     },
     {
         name:"To Do App 2.0",
-        src:"/todo.jpeg",
+        src:"/projectsImg/todo.jpeg",
         info:"To Do App made using NextJs and ReactJs . The app also has Login / Register functionality along with event notifications using React-Toastify .",
         tools:[
             "next",
@@ -35,7 +35,7 @@ const projects = [
     },
     {
         name:"Tic Tac Toe",
-        src:"/tic-tac-toe.jpeg",
+        src:"/projectsImg/tic-tac-toe.jpeg",
         info:"Made a Tic-Tac-Toe game using HTML , Vanilla Javascript and tailwind css framework . The player can either play with a friend or against a never loosing bot with score and naming systems .",
         tools:[
             "html",
@@ -46,7 +46,7 @@ const projects = [
     },
     {
         name:"Menu",
-        src:"/menu.jpeg",
+        src:"/projectsImg/menu.jpeg",
         info:"A frontend based menu app made using react .",
         tools:[
             "react",
@@ -57,7 +57,7 @@ const projects = [
     },
     {
         name:"NextJs Website",
-        src:"/ninja.jpeg",
+        src:"/projectsImg/ninja.jpeg",
         info:"A website made using nextJs . The website has routing feature and fetches data through rest APIs .",
         tools:[
             "next",
@@ -68,7 +68,7 @@ const projects = [
     },
     {
         name:"Birthday Reminder",
-        src:"/bday.jpeg",
+        src:"/projectsImg/bday.jpeg",
         info:"A frontend based birthday reminder app made using react .",
         tools:[
             "react",
@@ -79,7 +79,7 @@ const projects = [
     },
     {
         name:"Tours",
-        src:"/tour.jpeg",
+        src:"/projectsImg/tour.jpeg",
         info:"A frontend based tours app made using react .",
         tools:[
             "react",
@@ -90,7 +90,7 @@ const projects = [
     },
     {
         name:"Reviews",
-        src:"/reviews.jpeg",
+        src:"/projectsImg/reviews.jpeg",
         info:"A frontend based reviews app made using react .",
         tools:[
             "react",
@@ -101,7 +101,7 @@ const projects = [
     },
     {
         name:"FAQ App",
-        src:"/faq.jpeg",
+        src:"/projectsImg/faq.jpeg",
         info:"A frontend based FAQ app made using react .",
         tools:[
             "react",
@@ -112,7 +112,7 @@ const projects = [
     },
     {
         name:"To Do App 1.0",
-        src:"/todo2.jpeg",
+        src:"/projectsImg/todo2.jpeg",
         info:"To Do App made using HTML , CSS and Vanilla Javascript . The app has Login / Register functionality along with event notifications .",
         tools:[
             "html",

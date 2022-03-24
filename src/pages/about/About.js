@@ -1,8 +1,8 @@
 import React from 'react'
-import PersonalInfo from '../components/PersonalInfo'
-import Skills from '../components/Skills'
-import Education from '../components/Education'
-import Experience from '../components/Experience'
+import PersonalInfoCard from '../../components/cards/aboutPageCards/PersonalInfoCard'
+import SkillsCard from '../../components/cards/aboutPageCards/SkillsCard'
+import EducationCard from '../../components/cards/aboutPageCards/EducationCard'
+import ExperienceCard from '../../components/cards/aboutPageCards/ExperienceCard'
 import { motion } from 'framer-motion'
 
 
@@ -39,10 +39,10 @@ const About = () => {
         </h1>  
         <div className='about-cont'>
         
-          <PersonalInfo />
-          <Skills />
-          <Education />
-          <Experience />
+          <PersonalInfoCard />
+          <SkillsCard />
+          <EducationCard />
+          <ExperienceCard />
         </div>
         </div>
     </motion.div>
