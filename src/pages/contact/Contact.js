@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { GITHUB_URL, LINKEDIN_URL, TWITTER_URL } from '../../utils/constants/general'
 
 
 const containerVariants = {
@@ -45,9 +46,9 @@ const Contact = () => {
           <p className='p-info-para'>Email : <span className='p-info-para-span'>aayushsrivastava9760@gmail.com</span></p>
           <p className='p-info-para'>Whatsapp : <span className='p-info-para-span'>+91 7037104838</span></p>
           <div className='social'>
-            <a rel="noopener noreferrer" target='_blank' href='https://github.com/aayushsrivastava9760'><i className="github fa fa-github"></i></a>
-            <a rel="noopener noreferrer" target='_blank' href='https://www.linkedin.com/in/aayushsrivastava9760/'><i className="linkedin fa fa-linkedin-square"></i></a>
-            <a rel="noopener noreferrer" target='_blank' href='https://twitter.com/Aayush9760'><i className="twitter fa fa-twitter"></i></a>
+            <a rel="noopener noreferrer" target='_blank' href={GITHUB_URL}><i className="github fa fa-github"></i></a>
+            <a rel="noopener noreferrer" target='_blank' href={LINKEDIN_URL}><i className="linkedin fa fa-linkedin-square"></i></a>
+            <a rel="noopener noreferrer" target='_blank' href={TWITTER_URL}><i className="twitter fa fa-twitter"></i></a>
           </div>
         </div>
         <div>

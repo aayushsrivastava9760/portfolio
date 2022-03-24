@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Tilt from 'react-tilt'
 
-const Experience = () => {
+const ExperienceCard = () => {
   return (
     <div>
       <Tilt className="Tilt" options={{ max : 5 }}>
@@ -36,4 +36,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default ExperienceCard

@@ -1,6 +1,6 @@
 import React from 'react'
-import ProjectCard from '../components/ProjectCard'
-import projects from '../assets/projects'
+import ProjectCard from '../../components/cards/projectPageCard/ProjectCard'
+import projects from '../../utils/data/projects'
 import { motion } from 'framer-motion'
 
 const containerVariants = {

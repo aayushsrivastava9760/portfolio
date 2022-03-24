@@ -1,8 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import professions from '../assets/professionData'
+import professions from '../../utils/data/professionData'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import ROUTES from '../../utils/routes'
 
 const buttonVariants = {
   hover: {
@@ -81,7 +82,7 @@ const Home = () => {
     >
         <div className='color-block'/>
         <div className='home-col'>
-            <img className='image-block' src="/aayush.jpeg" alt="aayush" />
+            <img className='image-block' src="/profileImg/profileHomePageImg.jpeg" alt="aayush" />
             <div className='home-content'>
 
                 <h1 className='home-title'>Hi,  I 'm   Aayush  Srivastava </h1>
@@ -96,7 +97,7 @@ const Home = () => {
                 </motion.p>
                 
                 <div>
-                <Link to='/about'>
+                <Link to={ROUTES.ABOUT}>
                 <motion.button 
                   variants={buttonVariants}
                   whileHover="hover"
