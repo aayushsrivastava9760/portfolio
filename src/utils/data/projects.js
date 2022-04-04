@@ -1,5 +1,16 @@
 const projects = [
     {
+        name:"SocioLiz",
+        src:"/projectsImg/socioliz.jpeg",
+        info:"A MERN stack based social website with realtime chat and many more features.",
+        tools:[
+            "React",
+            "Express",
+            "Socket"
+        ],
+        link:"https://socioliz.netlify.app/"
+    },
+    {
         name:"Personal Portfolio",
         src:"/projectsImg/portfolio.jpeg",
         info:"Personal Portfolio website made using React .",
